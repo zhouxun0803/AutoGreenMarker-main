@@ -27,7 +27,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.email "dev.zhouxun@outlook.com"
-          git config --global user.name "zx123456"
+          git config --global user.name "zhouxun"
       - name: Make a change
         run: echo "$(date)" >> commit.txt  # 使用追加操作符避免冲突
 
